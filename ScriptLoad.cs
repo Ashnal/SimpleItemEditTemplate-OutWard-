@@ -54,7 +54,6 @@ namespace SimpleItemEditTemplate
             //Be sure to call the original method you are hooking on to
             //99% of the time you will want to call it before you do anything yourself, failing to call this will stop whatever class you are hooking into from loading correctly
             //which could cause a lot of other problems
-            orig(self);
 
             //WE ARE HERE CODING TIME
             //Firstly Here's the ID's Of two Items
