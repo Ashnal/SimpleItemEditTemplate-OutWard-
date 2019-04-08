@@ -44,11 +44,11 @@ namespace SimpleItemEditTemplate
 
             //On.ItemManager.ItemAssetsDoneLoading += new On.ItemManager.hook_ItemAssetsDoneLoading(itemAssetsLoadedHook);
 
-            On.ResourcesPrefabManager.LoadItemPrefabs += new On.ResourcesPrefabManager.hook_LoadItemPrefabs(wwW);
+            On.ResourcesPrefabManager.LoadItemPrefabs += new On.ResourcesPrefabManager.hook_LoadItemPrefabs(loadItemPrefabsHook);
         }
 
         //Here's the method
-        private void wwW(On.ResourcesPrefabManager.orig_LoadItemPrefabs orig, ResourcesPrefabManager self)
+        private void loadItemPrefabsHook(On.ResourcesPrefabManager.orig_LoadItemPrefabs orig, ResourcesPrefabManager self)
         {
             orig(self);
             //Be sure to call the original method you are hooking on to
