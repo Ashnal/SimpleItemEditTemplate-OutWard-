@@ -1,0 +1,3 @@
+c:\Users\Box\Documents\Visual Studio 2015\Projects\SimpleItemEditTemplate\obj\Debug\SimpleItemEditTemplate.csprojResolveAssemblyReference.cache
+D:\Program Files\Outward - Modding\Mods\SimpleItemEditTemplate.dll
+c:\Users\Box\Documents\Visual Studio 2015\Projects\SimpleItemEditTemplate\obj\Debug\SimpleItemEditTemplate.dll
